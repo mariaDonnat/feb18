@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+
+    <link rel = "stylesheet" href = "css/validation.css">
+    <script src = "js/validation.js"></script>
+
+</head>
+<body>
+    <div style = "margin-left : 300px; margin-right: 300px; margin-top: 150px;">
+    <form>
+        <fieldset>
+            <legend>
+                Create a New Event
+            </legend><br>
+
+            <label>Event Type:
+                <select>
+                <option>Tutorial</option>
+                <option>Community Service</option>
+                <option>Community Service</option>
+                </select>
+            </label><br><br>
+
+                <label> Event Title : <input type = "text" required></label><br><br>
+                <label> Event Date : <input type = "date" id = "ED1" required> to <input type = "date" id = "ED2" required></label><br><br>
+                <label> Posting Date : <input type = "date"> </label><br><br>
+                <label><input type = "checkbox">Is my registration required?</label><br><br>
+                <label><input type = "checkbox">Is this event associated with any Family eheh?</label><br><br>
+                <label><input type = "checkbox">Upon registration completion ?</label><br><br>
+                <label><input type = "checkbox">Is my registration required?</label><br><br>
+                <label><input type = "checkbox">Is my registration required?</label><br><br>
+
+                <div style = "text-align: center;">
+                <input type = "submit" value = "Save" onlick = "save()">
+                <input type = "reset" value = "Cancel">
+                </div>
+                
+                <br><br>
+        </fieldset>
+    </form>
+    </div>    
+</body>
+</html>
